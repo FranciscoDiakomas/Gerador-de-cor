@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+button{
+    width: 150px;
+    border: transparent;
+    background-color: cornflowerblue;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12pt;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+#caixa{
+    background-color: gray;
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+button:active{
+    transform: translateY(10px);
+}
+button:hover{
+    background-color: rgb(29, 107, 252);
+}
+span{
+    min-height: 20px;
+    font-size: 14pt;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
